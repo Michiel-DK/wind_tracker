@@ -18,3 +18,7 @@ fig = go.Figure(px.scatter_mapbox(
 ))
 
 st.plotly_chart(fig)
+
+st.markdown('Notes:')
+st.markdown('Color change per windspeed (non-consistent scale)')
+st.markdown('Direction possible but tricky to visualize')
